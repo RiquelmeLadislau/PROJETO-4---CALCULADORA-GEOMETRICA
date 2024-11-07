@@ -31,22 +31,22 @@ switch(menu){
         const height = parseFloat(prompt('Coloque um valor'))
         alert(`Essa é a area do triangulo ${areaDT(base, height)}`)
         break
-    case'2':
+    case '2':
         const base1 = parseFloat(prompt(`Coloque um valor`))
         const height2 =parseFloat(prompt(`Colque outro valor`))
     alert(`essa é a area do retangulo ${areaDR(base1,height2)}`)
         break
-    case'3':
+    case '3':
         const way = parseFloat(prompt('Coloque um valor'))
     alert(`essa é a area do quadrado ${areaDQ(lado)}`)
         break
-    case'4':
+    case '4':
         const base3 = parseFloat(prompt('Digite um valor'))
         const base4 = parseFloat(prompt('Digite um valor'))
         const height3 = parseFloat(prompt('Digite um valor'))
     alert (`essa é a area do trapezio ${areaDTR(base3,base4,height3)}`)
         break
-    case'5':
+    case '5':
     const area = parseFloat(prompt(`Coloque um valor`))
     alert(`essa é a area do circulo ${areaDC(area)}`)
         break
